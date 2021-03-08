@@ -1,0 +1,53 @@
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.5em;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5em;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2em;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.story {
+  font-style: italic;
+  font-size: 1.3em;
+}
+
+.exampleText {
+  background-color: whitesmoke;
+  padding: 2em;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.styledLink {
+  padding: 10px;
+}
+
+.instructions {
+  font-size: 1.2em;
+}
+
+.section {
+  text-align: center;
+  margin: 0;
+  padding: 3em;
+}
+
+.start {
+  background-color: whitesmoke;
+}
+
+.email {
+  background-color: blanchedalmond;
+}
+/*# sourceMappingURL=main.css.map */

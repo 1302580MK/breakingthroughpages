@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.css"
+        integrity="sha512-RVmrWua3k1yTDEOg4Yzs2bK5+Thh7nM6jrhDq/6/5/Mwa0JbYe4pP4YMK5sqghKz01T3DgrwYc57Jaf1PSurCg=="
+        crossorigin="anonymous" />
+    <title>Playground</title>
+</head>
+
+
+<body>
+    <div id="fullpage">
+        <div class="section start">
+            <h1>How far would you go?</h1>
+            <p>I would like to test with you different approaches or elements which could be implemented in to an
+                interactive story. Let's see how you like them. Please consider taking the survey after you tested a
+                specific approach. The information gathered (anonymized) will be part of my thesis.</p>
+
+        </div>
+        <div class="section email">
+            <div class="slide" data-anchor="slide1">
+                <h2>E-Mail</h2>
+                <p>In example 1 you have to request a password by writing an email. The code will allow you to continue
+                    with the story.</p>
+                <p>In example 2 you request a keyfile which needs to be stored on your device and then uploaded by yourself to continue with the story.</p>
+                <p>--></p>
+            </div>
+            <div class="slide" data-anchor="slide2">
+                <div class="example">
+                    <div class="exampleText">
+                        <p class="story">Finally, Mr. Misterious has provided you with the crucial clue. Now all you have to do is
+                        download the evidence. Oh no, we need a password! Mr. Misterious didn't say anything about a
+                        password! Contact him again to get it. Hurry!</p>
+                        <a class="styledLink"
+                        href="mailto:code.3hg2in@zapiermail.com?subject=Need%20a%20code%20or%20password%20to%20download%20the%20files!&body=Hi%20Mr.%20Misterious%2C%0D%0Aplease%20answer%20asap.%0D%0AI%20need%20some%20kind%20of%20password%20to%20download%20the%20files.%0D%0A%0D%0A">Write
+                        Mail to Mr. Misterious</a>
+                   </div>
+
+                    <p class="instructions">You will recieve a Mail from Mr. Misterious.</p>
+                    <form action="/success.html">
+                        <label for="password">Password:</label><br>
+                        <input type="text" id="password" name="password" value="insert password here"><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+
+            <div class="slide" data-anchor="slide3">
+                <div class="example">
+                    <h2>Example 2</h2>
+                    <div class="exampleText">
+                    <p class="story">Finally, Mr. Misterious has provided you with the crucial clue. Now all you have to do is
+                        download the evidence. Oh no, the site is encrypted! Mr. Misterious didn't say anything about
+                        that. We need to upload a keyfile to unlock the content! Contact him again to get it. Hurry!</p>
+                    </div>
+                    <form action="/success.html">
+                        <label for="myfile">Select a file:</label>
+                        <input type="file" id="myfile" name="myfile"><br><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+<!--         <div class="section s2">
+            <div class="slide" data-anchor="slide1">Two 1</div>
+            <div class="slide" data-anchor="slide2">Two 2</div>
+        </div>
+        <div class="section s3">Three</div>
+        <div class="section s4">Four</div> -->
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js"
+        integrity="sha512-HqbDsHIJoZ36Csd7NMupWFxC7e7aX2qm213sX+hirN+yEx/eUNlZrTWPs1dUQDEW4fMVkerv1PfMohR1WdFFJQ=="
+        crossorigin="anonymous"></script>
+
+    <script src="/js/fullpage.js"></script>
+
+</body>
+
+</html>

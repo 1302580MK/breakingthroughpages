@@ -27,13 +27,14 @@
         <div class="section email">
             <div class="slide" data-anchor="slide1">
                 <h2>E-Mail</h2>
-                <p>In example 1 you have to request a password by writing an email. The code will allow you to continue
+                <p>In example 1 you have to request a password by writing an <strong>email</strong>. The code will allow you to continue
                     with the story.</p>
                 <p>In example 2 you request a keyfile which needs to be stored on your device and then uploaded by yourself to continue with the story.</p>
                 <p>--></p>
             </div>
             <div class="slide" data-anchor="slide2">
                 <div class="example">
+                    <h2>Example 1</h2>
                     <div class="exampleText">
                         <p class="story">Finally, Mr. Misterious has provided you with the crucial clue. Now all you have to do is
                         download the evidence. Oh no, we need a password! Mr. Misterious didn't say anything about a
@@ -46,7 +47,7 @@
                     <p class="instructions">You will recieve a Mail from Mr. Misterious.</p>
                     <form action="/success.html">
                         <label for="password">Password:</label><br>
-                        <input type="text" id="password" name="password" value="insert password here"><br>
+                        <input type="text" id="password" name="password" value=""><br>
                         <input type="submit" value="Submit">
                     </form>
                 </div>
@@ -67,6 +68,35 @@
                     </form>
                 </div>
             </div>
+        </div>
+
+
+
+        <div class="section bot">
+            <div class="slide" data-anchor="slide1">
+                <h2>Chatbots</h2>
+                <p>In the example you have to request a password by writing to a <strong>telegram chatbot</strong>. The code will allow you to continue
+                    with the story.</p>
+                <p>--></p>
+            </div>
+            <div class="slide" data-anchor="slide2">
+                <div class="example">
+                    <div class="exampleText">
+                        <p class="story">You found the Smartphone of the suspect .. but damn it .. it's locked! We have to know with whom the suspect was in contact. You absolutly need the password to unlock it.</p>
+                        <a class="styledLink"
+                        href="https://web.telegram.org/#/im?p=@MrMisterious_bot" target="_blank" >
+                        Try contacting Mrs. Misterious</a>
+                   </div>
+
+                    <p class="instructions">Get the password from Mrs. Misterious</p>
+                    <form action="/success.html">
+                        <label for="password">Password:</label><br>
+                        <input type="text" id="password" name="password" value=""><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+
         </div>
 
 <!--         <div class="section s2">

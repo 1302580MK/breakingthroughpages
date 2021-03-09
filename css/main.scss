@@ -49,3 +49,103 @@ p{
   .email{
     background-color: blanchedalmond;
 }
+
+.bot{
+    background-color: lightskyblue;
+}
+
+@media (max-width:800px){
+    h1{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5em;
+    }
+    
+    h2{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2em;
+    }
+    
+    p{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+    
+    .story{
+        font-style: italic;
+        font-size: 1em;
+     
+    
+    }
+    
+    .exampleText{
+        background-color:whitesmoke;
+        padding:0.5em;
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .styledLink{
+        padding: 10px;
+    }
+    .instructions{
+        font-size: 1em;
+    }
+    .section {
+        text-align:center;
+        margin: 0;
+        padding: 1em;
+      }
+
+}
+
+
+@media (max-width:1000px){
+    h1{
+        font-family: 'Poppins', sans-serif;
+        font-size: 2em;
+    }
+    
+    h2{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5em;
+    }
+    
+    p{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1em;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    
+    .story{
+        font-style: italic;
+        font-size: 1.2em;
+         
+    }
+    
+    .exampleText{
+        background-color:whitesmoke;
+        padding:0.5em;
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .styledLink{
+        padding: 10px;
+    }
+    .instructions{
+        font-size: 1em;
+    }
+    .section {
+        text-align:center;
+        margin: 0;
+        padding: 1em;
+      }
+
+}

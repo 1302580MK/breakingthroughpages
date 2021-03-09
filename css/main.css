@@ -17,13 +17,13 @@ p {
 
 .story {
   font-style: italic;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 .exampleText {
   background-color: whitesmoke;
-  padding: 2em;
-  width: 60%;
+  padding: 1.5em;
+  width: 70%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -40,7 +40,7 @@ p {
 .section {
   text-align: center;
   margin: 0;
-  padding: 3em;
+  padding: 2em;
 }
 
 .start {
@@ -66,7 +66,7 @@ p {
   }
   p {
     font-family: 'Poppins', sans-serif;
-    font-size: 1em;
+    font-size: 14px;
     padding-left: 1.5em;
     padding-right: 1.5em;
   }
@@ -76,7 +76,7 @@ p {
   }
   .exampleText {
     background-color: whitesmoke;
-    padding: 0.5em;
+    padding: 10px;
     width: 90%;
     display: block;
     margin-left: auto;
@@ -106,13 +106,13 @@ p {
   }
   p {
     font-family: 'Poppins', sans-serif;
-    font-size: 1em;
+    font-size: 16px;
     padding-left: 2em;
     padding-right: 2em;
   }
   .story {
     font-style: italic;
-    font-size: 1.2em;
+    font-size: 1em;
   }
   .exampleText {
     background-color: whitesmoke;
@@ -125,13 +125,50 @@ p {
   .styledLink {
     padding: 10px;
   }
-  .instructions {
-    font-size: 1em;
-  }
   .section {
     text-align: center;
     margin: 0;
     padding: 1em;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3em;
+  }
+  h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+  }
+  p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .story {
+    font-style: italic;
+    font-size: 12px;
+  }
+  .exampleText {
+    background-color: whitesmoke;
+    padding: 15px;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .styledLink {
+    padding: 10px;
+  }
+  .instructions {
+    font-size: 12px;
+  }
+  .section {
+    text-align: center;
+    margin: 0;
+    padding: 3em;
   }
 }
 /*# sourceMappingURL=main.css.map */

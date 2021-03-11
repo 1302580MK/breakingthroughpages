@@ -55,6 +55,18 @@ p {
   background-color: lightskyblue;
 }
 
+.browserCode {
+  background-color: lightgreen;
+}
+
+.augmentedReality {
+  background-color: lightsalmon;
+}
+
+.optional {
+  font-size: 0.8em;
+}
+
 @media (max-width: 800px) {
   h1 {
     font-family: 'Poppins', sans-serif;

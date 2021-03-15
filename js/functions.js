@@ -26,9 +26,10 @@ function buttonClick(){
     let t = new Date();
     let str1 = "The time was just right: the code is 27032004";
     let str2 = "The time was not right: try again later. between 30'-59'"
-
+    let f = t.getMinutes();
+    let half = 30;
     document.getElementById("buttonTime").innerHTML = t.getMinutes();
-    if (t.getMinutes < 30) {
+    if (f > half) {
         document.getElementById("buttonTimeText").innerHTML = str1;
     } else{
         document.getElementById("buttonTimeText").innerHTML = str2;

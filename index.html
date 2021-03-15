@@ -175,12 +175,11 @@
                     it. Every hour the chance to find it is reset.</p>
                 <p>--></p>
             </div>
+            <!-- load from a txt file-->
             <div class="slide" data-anchor="slide2">
                 <div class="example">
                     <div class="exampleText">
-                        <p class="story">You previously found the Smartphone of the suspect now you have access to the
-                            special app they used to identify the counterfeit money. You need to scan a 100 Euro bill.
-                        </p>
+                        <p class="story">load from txt file with ajax</p>
                         <div id="phpdemo">
                             <h2>Try it out</h2>
                             <button type="button" onclick="loadDoc()">Change Content</button>
@@ -195,30 +194,15 @@
                 </div>
             </div>
 
+            <!-- load from a php file-->
             <div class="slide" data-anchor="slide3">
                 <div class="example">
                     <div class="exampleText">
-                        <p class="story">You previously found the Smartphone of the suspect now you have access to the
-                            special app they used to identify the counterfeit money. You need to scan a 100 Euro bill.
-                        </p>
-
-                        <h2>evaluate time/h2>
-
+                        <p class="story">Load from php file based on time</p>
                     </div>
-                    <form action="theSamePage.php" method="post">
-                        <input type="submit" name="someAction" value="GO" />
-                    </form>
-                    <?php
-                    if($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['someAction']))
-                    {
-                        func();
-                    }
-                    function func()
-                    {
-                        <p>hi</p>     
-                    }
-                ?>
-
+                    <div id="viewdata">
+                        <!-- getdata.php here-->
+                    </div>
                     <form action="/success.html">
                         <label for="password">Code:</label><br>
                         <input type="text" id="password" name="password" value=""><br>
@@ -227,6 +211,28 @@
                 </div>
             </div>
         </div>
+
+        <!-- load on btn click from javascript-->
+        <div class="slide" data-anchor="slide4">
+            <div class="example">
+                <div class="exampleText">
+                    <p class="story">load from js file based on time</p>
+                </div>
+                <button type="button" onclick="buttonClick()">click me</button>
+                <div id="buttonTime">
+                    <!-- js time code insert here-->
+                </div>
+                <div id="buttonTimeText">
+                    <!-- js code insert here-->
+                </div>
+                <form action="/success.html">
+                    <label for="password">Code:</label><br>
+                    <input type="text" id="password" name="password" value=""><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
 
 
     </div>
@@ -244,7 +250,7 @@
         crossorigin="anonymous"></script>
 
     <script src="/js/fullpage.js"></script>
-    <script src="js/functions.js"></script>
+    <script src="/js/functions.js"></script>
 
 </body>
 
